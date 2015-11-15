@@ -178,7 +178,7 @@ class SinatraApp < Sinatra::Base
 	
 	app_get_query = lambda do
 		logger.info  'Enter app_get_query'
-		@action = :create
+	#	@action = :create
 		slim :query
 		logger.info  'Leave app_get_query'
 
